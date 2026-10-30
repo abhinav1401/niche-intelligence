@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "creators": 24,
+  "fixture_seed": 7026,
+  "sha256": {
+    "adjacent.json": "10a5ff1708d6104280cdb2032253e5e33c16debd06671c2786eac86b98b034b4",
+    "quota.json": "6c09567c79f35292e4dab9cf6b6e4e5dbb10c26335733a3db0fab21571a845fe",
+    "ranking.json": "07342cbded49ed98134ed7f9b74b916b3d82d74012a666fde2230add9ca3d6cb",
+    "synthetic.sqlite3": "f688807743a2344cf130b27e6d1c56c0f623e79ecb5e8f7274459af193ff9bfc",
+    "theme.css": "3e74aa564bb398cb0f723901c611558675d1e08fc3b5d45ec970fc455c689991",
+    "videos.json": "85287e36fb9fee8e707129367cfb8e11ad5a68e45cc2b5bc0768018c54a21a01",
+    "workflow.json": "a8ef6b6481cccd1b76451575aade88137d93ae1d7757b6b8525e06358508df02"
+  },
+  "source_commit": "fcd418df46e2d79971f2dc748d46ac9d15774cdb",
+  "subject_clusters": 12,
+  "synthetic": true,
+  "videos": 1920
+}

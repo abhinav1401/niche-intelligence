@@ -1,0 +1,12 @@
+
+    [data-testid="stMainBlockContainer"] {max-width:1500px; padding-bottom:3rem}
+    h1 {font-size:2.25rem!important; letter-spacing:-.06rem; font-weight:700!important}
+    h2,h3 {letter-spacing:-.025rem}
+    [data-testid="stSidebar"] {background:#102B3C}
+    [data-testid="stSidebar"] * {color:#EDF5FA}
+    [data-testid="stSidebar"] [data-baseweb="select"] * {color:#162A3A}
+    [data-testid="stMetric"] {background:white;border:1px solid #E0E7ED;border-radius:12px;padding:16px}
+    [data-testid="stMetricValue"] {font-size:1.85rem}
+    [data-testid="stVerticalBlockBorderWrapper"] {border-radius:12px}
+    div.stButton>button[kind="primary"] {border-radius:8px}
+    

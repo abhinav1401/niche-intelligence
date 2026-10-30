@@ -1,0 +1,108 @@
+{
+  "cloud_note": "Frozen synthetic ledger from an offline demonstration. This public server sends no API requests.",
+  "cloud_reconciled": false,
+  "daily": [
+    {
+      "limit": 9000,
+      "metric": "general",
+      "percent": 0.16666666666666666,
+      "protected_percent": 0.16666666666666666,
+      "provider_reported_window": null,
+      "remaining": 8985,
+      "safe_remaining": 8985,
+      "used": 15
+    },
+    {
+      "limit": 80,
+      "metric": "search",
+      "percent": 3.75,
+      "protected_percent": 3.75,
+      "provider_reported_window": null,
+      "remaining": 77,
+      "safe_remaining": 77,
+      "used": 3
+    },
+    {
+      "limit": 9000,
+      "metric": "batch_stats",
+      "percent": 0.0,
+      "protected_percent": 0.0,
+      "provider_reported_window": null,
+      "remaining": 9000,
+      "safe_remaining": 9000,
+      "used": 0
+    }
+  ],
+  "day": "2026-10-30",
+  "limits": {
+    "buffer": 0.0,
+    "day": {
+      "batch_stats": 9000,
+      "general": 9000,
+      "search": 80
+    },
+    "effective_day": {
+      "batch_stats": 9000,
+      "general": 9000,
+      "search": 80
+    },
+    "minute": {
+      "batch_stats": 600,
+      "per_user": 180000,
+      "requests": 1800000,
+      "search": 100
+    }
+  },
+  "local_status": "Available",
+  "minute": [
+    {
+      "limit": 100,
+      "metric": "search",
+      "percent": 3.0,
+      "protected_percent": 3.0,
+      "provider_reported_window": null,
+      "remaining": 97,
+      "safe_remaining": 97,
+      "used": 3
+    },
+    {
+      "limit": 600,
+      "metric": "batch_stats",
+      "percent": 0.0,
+      "protected_percent": 0.0,
+      "provider_reported_window": null,
+      "remaining": 600,
+      "safe_remaining": 600,
+      "used": 0
+    },
+    {
+      "limit": 1800000,
+      "metric": "requests",
+      "percent": 0.001,
+      "protected_percent": 0.001,
+      "provider_reported_window": null,
+      "remaining": 1799982,
+      "safe_remaining": 1799982,
+      "used": 18
+    },
+    {
+      "limit": 180000,
+      "metric": "per_user",
+      "percent": 0.01,
+      "protected_percent": 0.01,
+      "provider_reported_window": null,
+      "remaining": 179982,
+      "safe_remaining": 179982,
+      "used": 18
+    }
+  ],
+  "now": "2026-10-30T18:00:00+00:00",
+  "reserved_requests": 0,
+  "reset_at": "2026-10-31T07:00:00+00:00",
+  "reset_pacific": "2026-10-31T00:00:00-07:00",
+  "reset_sydney": "2026-10-31T18:00:00+11:00",
+  "seconds_remaining": 46800,
+  "status": "Available",
+  "suspensions": [],
+  "timezone": "America/Los_Angeles"
+}

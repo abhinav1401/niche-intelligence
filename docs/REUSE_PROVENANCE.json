@@ -1,0 +1,11 @@
+{
+  "source_commit": "fcd418df46e2d79971f2dc748d46ac9d15774cdb",
+  "source_sha256": {
+    "nicheintel/classification.py": "dde34adf7c70407e8676c503c47097b346a04a532f6ee7dc9c91ff4ee38ee38a",
+    "nicheintel/taxonomy.json": "ba1de500777769f33d68d9def7ca7f636f60fb46182e36cb2b5e7d32f40d91d7",
+    "nicheintel/dashboard.py": "60b833c93f895de8278c2ff17033c19b1802959b3d626b4198b0406d33cde79b",
+    "nicheintel/export.py": "22a633ca81652e882b0c62af5e316a76711fb7cd5859d0425a7e45d79c4d584e",
+    "nicheintel/quota_ui.py": "070253a30fb5bc1b68344d67a50e16949a44022231ecbf0b08f4a5b01328b405"
+  },
+  "note": "Presentation functions reused with write forms removed. Models/metrics generated from the deterministic fictional fixture in an isolated offline build. No production database was used."
+}

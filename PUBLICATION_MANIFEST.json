@@ -1,0 +1,237 @@
+{
+  "branch": "main",
+  "entrypoint": "app.py",
+  "files": {
+    ".githooks/pre-push": {
+      "bytes": 276,
+      "sha256": "8af2f72433b15326923d6c5c294aaeba6f45f6ddb3763c549f9c458134f4a069"
+    },
+    ".gitignore": {
+      "bytes": 179,
+      "sha256": "979c92c686a740bdc4b040f78b580e222493402f64309fd5b7d448833aeb54a0"
+    },
+    ".python-version": {
+      "bytes": 5,
+      "sha256": "02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398"
+    },
+    ".streamlit/config.toml": {
+      "bytes": 369,
+      "sha256": "482e0869a0068233982c9509c280f55a4ac0ba3f80c8679a517ea08845a4b520"
+    },
+    "README.md": {
+      "bytes": 4833,
+      "sha256": "d5d381449cb4ebc733f9f2aeef4410ec70f8f92a940c350af9674ae9a35962d5"
+    },
+    "app.py": {
+      "bytes": 116,
+      "sha256": "2f527de948c94c745fdf338f689238ae942d3b196bf1572a8bfdfbb8a300671e"
+    },
+    "assets/adjacent.json": {
+      "bytes": 209689,
+      "sha256": "10a5ff1708d6104280cdb2032253e5e33c16debd06671c2786eac86b98b034b4"
+    },
+    "assets/manifest.json": {
+      "bytes": 848,
+      "sha256": "8cdfb5bea233a3d7b9206f614fb20bc9387da6b4eb336439e4d9937ff7c4ba4c"
+    },
+    "assets/quota.json": {
+      "bytes": 2532,
+      "sha256": "6c09567c79f35292e4dab9cf6b6e4e5dbb10c26335733a3db0fab21571a845fe"
+    },
+    "assets/ranking.json": {
+      "bytes": 37899,
+      "sha256": "07342cbded49ed98134ed7f9b74b916b3d82d74012a666fde2230add9ca3d6cb"
+    },
+    "assets/synthetic.sqlite3": {
+      "bytes": 4456448,
+      "sha256": "f688807743a2344cf130b27e6d1c56c0f623e79ecb5e8f7274459af193ff9bfc"
+    },
+    "assets/theme.css": {
+      "bytes": 670,
+      "sha256": "3e74aa564bb398cb0f723901c611558675d1e08fc3b5d45ec970fc455c689991"
+    },
+    "assets/videos.json": {
+      "bytes": 3327731,
+      "sha256": "85287e36fb9fee8e707129367cfb8e11ad5a68e45cc2b5bc0768018c54a21a01"
+    },
+    "assets/workflow.json": {
+      "bytes": 78433,
+      "sha256": "a8ef6b6481cccd1b76451575aade88137d93ae1d7757b6b8525e06358508df02"
+    },
+    "content/about.md": {
+      "bytes": 6206,
+      "sha256": "75a487072b2cf275200d39a0c51d391ef0f1e36a8ab1cbed211c402559f19f6f"
+    },
+    "content/privacy.md": {
+      "bytes": 7680,
+      "sha256": "7ff8049be4a87290bd7adcd2759b0a601386de5cddab9c26df903b0ed2783b85"
+    },
+    "content/terms.md": {
+      "bytes": 3918,
+      "sha256": "714575c1715ec6a8350036400cc706e112d2a49b5e44248ffbbcdd2e73c91b0b"
+    },
+    "docs/DEMO_VS_PRIVATE.md": {
+      "bytes": 2758,
+      "sha256": "a08e2f84844f26e85c8f74b1ca095df16164f35f9e93db78edf4c8e40660d5e8"
+    },
+    "docs/DEPLOYMENT.md": {
+      "bytes": 5857,
+      "sha256": "00b221163a2c93de78609969d006a23f60ec89ac24dc3ea450887d7541b27919"
+    },
+    "docs/LEGAL_REVIEW.md": {
+      "bytes": 2775,
+      "sha256": "24b80680352da7868bdf09e85c23b23d751af1e9113dabb80718111d18051f4a"
+    },
+    "docs/PUBLICATION_SUMMARY.md": {
+      "bytes": 3236,
+      "sha256": "5d45ecf381eea2f422a8e2e621e4a3394ef4c6f3ac911efc8afcb27cbe00fe02"
+    },
+    "docs/PUBLIC_DEMO_SPEC.md": {
+      "bytes": 2128,
+      "sha256": "c9a10f8e6ba7cfaa83f54c92b6c08bc8393f526932ad708862d3a3d1443bf7d0"
+    },
+    "docs/REUSE_PROVENANCE.json": {
+      "bytes": 786,
+      "sha256": "44481729b958da1c355dd5a9e9c499c6e4843ff9a4b8bfc87b4e729b6a77155b"
+    },
+    "docs/SECURITY.md": {
+      "bytes": 4133,
+      "sha256": "48716e2dd4315f1f0583a509a4eb3bf7371b1798c34dcea8406caf5daed8fa3a"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 7363,
+      "sha256": "bf1d3b79017be2aed1f067b10a7feefe443909d4bb2a71aae4db89cf9ccd2e7f"
+    },
+    "nicheintel/__init__.py": {
+      "bytes": 79,
+      "sha256": "c72889173e88a9c2a9e6ad2e70cc90da8621b5851a81f4dba13e3e20c06c5895"
+    },
+    "nicheintel/analysis.py": {
+      "bytes": 167,
+      "sha256": "38d3b2ac1ff4f00c3161268044327d4572b6f201d68e783caa42b64fa6a55ca5"
+    },
+    "nicheintel/classification.py": {
+      "bytes": 411,
+      "sha256": "c358a6e8d8c4e172c88f4f67f0f2854edb016b32e4cdf7cd08ffe84ebaa67965"
+    },
+    "nicheintel/config.py": {
+      "bytes": 948,
+      "sha256": "37d1e40facfb5d05a10464e7e3b106ed646e27d6521620085dfc7628eb74a74c"
+    },
+    "nicheintel/dashboard.py": {
+      "bytes": 25758,
+      "sha256": "b0b18652b9c37dc02a641205048a32b032809c75694bd13f5550d87f5c202b36"
+    },
+    "nicheintel/db.py": {
+      "bytes": 2177,
+      "sha256": "3acf12ef0379cfb5eee55b8c36ce03c921b80663ca9a7393c79d7e937ccc243f"
+    },
+    "nicheintel/demo.py": {
+      "bytes": 136,
+      "sha256": "f54da2f97f383de4f08e68b4149363d106ca1a7ed7f5cba7d70cf485de672c0c"
+    },
+    "nicheintel/export.py": {
+      "bytes": 7370,
+      "sha256": "52fe74f8fb8bfbd7326533431a5effac8bdad791534bc26c8e73096d1aa5f559"
+    },
+    "nicheintel/ideas.py": {
+      "bytes": 402,
+      "sha256": "0760ed39faf4a2d6474022b62eaaf903cadadd199292200365dca9857e4ff430"
+    },
+    "nicheintel/imports.py": {
+      "bytes": 154,
+      "sha256": "925cbc872615ff76fc6f357de387390c50e845a2112f05b92b4f5a358cc1b403"
+    },
+    "nicheintel/integrity.py": {
+      "bytes": 934,
+      "sha256": "4cfc00e997ef4d68d187f4392e33c18debf0499f59dc3525de42678da3812a94"
+    },
+    "nicheintel/policy.py": {
+      "bytes": 310,
+      "sha256": "4a3595936f454003c4c7691367d4f90b779c5f00b1a1504f960b7c76db74e415"
+    },
+    "nicheintel/public_mode.py": {
+      "bytes": 406,
+      "sha256": "d6d011352df5dd3b7c74217445cb9170fd12d566c37585868872641ce495e473"
+    },
+    "nicheintel/public_ui.py": {
+      "bytes": 12375,
+      "sha256": "ab5684fa3411880089f221d0c4b5666248a69a052cdd88794850e7a925100fe2"
+    },
+    "nicheintel/quota.py": {
+      "bytes": 668,
+      "sha256": "f2f863fb0614c023e13385471ff484caca1c649fe32b2695d65a44671d468e6d"
+    },
+    "nicheintel/quota_ui.py": {
+      "bytes": 3391,
+      "sha256": "002bf5caa580a865a18730c33421e4d2a745a49df8e1a9ddc69691464c31f8f0"
+    },
+    "nicheintel/read_models.py": {
+      "bytes": 678,
+      "sha256": "0770b88b7f6e5abdf0dcb8894817bc60dfecbbd5e08c7321f6831667b7b98c68"
+    },
+    "nicheintel/reconciliation.py": {
+      "bytes": 159,
+      "sha256": "3d98d775c810bfe5a7129a9eb85266cce15637e626afcd2432ae1baae5703833"
+    },
+    "nicheintel/research.py": {
+      "bytes": 422,
+      "sha256": "7388d6ca5d975c16b5b69aa6a6d62909e9dcb2df5384a60fd6e9b066a1142a68"
+    },
+    "nicheintel/taxonomy.json": {
+      "bytes": 146138,
+      "sha256": "ba1de500777769f33d68d9def7ca7f636f60fb46182e36cb2b5e7d32f40d91d7"
+    },
+    "nicheintel/youtube.py": {
+      "bytes": 348,
+      "sha256": "589b8834f08e7f99bab95e3326766fa46020b70c3585fa707f25d5478d97ae96"
+    },
+    "pyproject.toml": {
+      "bytes": 239,
+      "sha256": "3313fcb53aceecf457e247d4d07e19bd5f476715663c62c94a6b9779f21a7299"
+    },
+    "requirements-dev.txt": {
+      "bytes": 81,
+      "sha256": "4a260cc57d817bc9a6690af876c0d822d64a7139ed4691aedab2ab50dd68105c"
+    },
+    "requirements.txt": {
+      "bytes": 46,
+      "sha256": "a52da1cc0403931a789b24515c7edab44279a6a58adf21c54b1441756083d951"
+    },
+    "scripts/publication_manifest.py": {
+      "bytes": 1118,
+      "sha256": "dc24a0cdd4bd47ed9e847b25a86d2760a214ad584c340c559d5222d2b40d403e"
+    },
+    "scripts/security_check.py": {
+      "bytes": 8139,
+      "sha256": "99e5b361188a4314d3e9e00ee418d99764d83cb411a6d8721117a51b62e693b0"
+    },
+    "site.json": {
+      "bytes": 265,
+      "sha256": "fa6cb77d7cbbc6c3fc64dd777918b29f5edaf2a9cf07de5284e78e965c7ee014"
+    },
+    "tests/browser/test_public_demo.py": {
+      "bytes": 5947,
+      "sha256": "c5674fac0d52e71a27ec87b3143f38477deb8c5ee2fb0f40401cd7300cb43b22"
+    },
+    "tests/conftest.py": {
+      "bytes": 751,
+      "sha256": "b76d13a9e5e088b7857d30bf654c0a103afec779fcc268ca733ed5c31ea977e7"
+    },
+    "tests/test_dashboard.py": {
+      "bytes": 2182,
+      "sha256": "4c1b69ee95e337063d2ac44c6af7fe671cca7283f5f67f833cf546dad367d9d3"
+    },
+    "tests/test_isolation.py": {
+      "bytes": 5670,
+      "sha256": "f4787c2305b00b537555c4737478d21124438eb10306854f1101857019d86a22"
+    },
+    "tests/test_release_gate.py": {
+      "bytes": 2763,
+      "sha256": "3e02cd6445bfa52b37d974fe48100fd77a64a6723b69fd99b2d49248633f9ce8"
+    }
+  },
+  "note": "Local review manifest, not a deployed URL or publication approval. Excludes itself and local Git/cache/environment directories.",
+  "published": false,
+  "repository": "https://github.com/abhinav1401/niche-intelligence"
+}

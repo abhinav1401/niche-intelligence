@@ -1,5 +1,7 @@
 # Niche Intelligence — Public Demonstration
 
+Live read-only demonstration: [Niche Intelligence](https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/). Direct [Privacy Policy](https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/privacy-policy), [Terms of Service](https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/terms-of-service) and [reviewer information](https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/about) are publicly accessible. All research results are synthetic. No YouTube key, private research or paid model service is deployed.
+
 **Synthetic data. Read-only. No live YouTube connection. Not yet published.**
 
 This is an isolated public-demo distribution of the actual Niche Intelligence dashboard. It reuses the original styling, research-page components and quota-monitor presentation. The full application remains a separate private local tool. No private Git history, credentials or production data was copied.
@@ -52,6 +54,6 @@ PUBLIC_DEMO_TEST_URL=http://127.0.0.1:8503 \
   .venv/bin/python -m pytest tests/browser/test_public_demo.py -q
 ```
 
-The security scanner inspects the working deployment tree, staged bytes and all blobs in this separate Git history. It suppresses matched secret values. A pre-push hook restricts the designated remote and runs the release gate when `git config core.hooksPath .githooks` is enabled. It is a safeguard, not a substitute for explicit human approval or a complete security audit.
+The security scanner inspects the working deployment tree, staged bytes and all blobs in this separate Git history. It suppresses matched secret values. A pre-push hook restricts the designated remote and runs the release gate when `chmod +x .githooks/pre-push` and `git config core.hooksPath .githooks` have been run. Browser uploads do not preserve executable bits, so cloned copies need that chmod step. It is a safeguard, not a substitute for explicit human approval or a complete security audit.
 
 See [deployment instructions](docs/DEPLOYMENT.md), [publication contents](docs/PUBLICATION_SUMMARY.md), [demo versus private app](docs/DEMO_VS_PRIVATE.md), [security and verification](docs/SECURITY.md), and [legal review checklist](docs/LEGAL_REVIEW.md).

@@ -19,8 +19,8 @@
       "sha256": "482e0869a0068233982c9509c280f55a4ac0ba3f80c8679a517ea08845a4b520"
     },
     "README.md": {
-      "bytes": 4833,
-      "sha256": "d5d381449cb4ebc733f9f2aeef4410ec70f8f92a940c350af9674ae9a35962d5"
+      "bytes": 5510,
+      "sha256": "70e525defa398d8f41bdd4f957242314a99b253666faa36562508d21d23749d9"
     },
     "app.py": {
       "bytes": 116,
@@ -75,8 +75,8 @@
       "sha256": "a08e2f84844f26e85c8f74b1ca095df16164f35f9e93db78edf4c8e40660d5e8"
     },
     "docs/DEPLOYMENT.md": {
-      "bytes": 5857,
-      "sha256": "00b221163a2c93de78609969d006a23f60ec89ac24dc3ea450887d7541b27919"
+      "bytes": 6358,
+      "sha256": "cedbd88592bd0aa7054dd35cefd0b073f8ed1646d3b207202560be407d198761"
     },
     "docs/LEGAL_REVIEW.md": {
       "bytes": 2775,
@@ -99,8 +99,8 @@
       "sha256": "48716e2dd4315f1f0583a509a4eb3bf7371b1798c34dcea8406caf5daed8fa3a"
     },
     "docs/VERIFICATION.md": {
-      "bytes": 7363,
-      "sha256": "bf1d3b79017be2aed1f067b10a7feefe443909d4bb2a71aae4db89cf9ccd2e7f"
+      "bytes": 9775,
+      "sha256": "35db223980e7bdb74f1990de5382b88e66501edfa2119697892f1b010710b103"
     },
     "nicheintel/__init__.py": {
       "bytes": 79,
@@ -211,8 +211,8 @@
       "sha256": "fa6cb77d7cbbc6c3fc64dd777918b29f5edaf2a9cf07de5284e78e965c7ee014"
     },
     "tests/browser/test_public_demo.py": {
-      "bytes": 5947,
-      "sha256": "c5674fac0d52e71a27ec87b3143f38477deb8c5ee2fb0f40401cd7300cb43b22"
+      "bytes": 7487,
+      "sha256": "304789b748b3018e568a4c23620b93429d85b88ca7605a149e0a6a538d2d9fa4"
     },
     "tests/conftest.py": {
       "bytes": 751,

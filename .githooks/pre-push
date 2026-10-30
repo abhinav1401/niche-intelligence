@@ -1,0 +1,6 @@
+#!/bin/sh
+case "$2" in
+  https://github.com/abhinav1401/niche-intelligence.git|git@github.com:abhinav1401/niche-intelligence.git) ;;
+  *) echo 'Push blocked: remote is not the owner-designated deployment repository.' >&2; exit 1 ;;
+esac
+exec python3 scripts/security_check.py

@@ -2,7 +2,9 @@
 
 ## Current state
 
-The owner explicitly approved publication and the operator/contact/policy details on 31 October 2026. Release checks and deployment verification are recorded in `VERIFICATION.md`; do not treat this runbook as proof of a successful deployment or a live URL.
+The owner approved publication and policy details on 31 October 2026. The reviewed 58-file demo was published to `abhinav1401/niche-intelligence`, `main`, and deployed on Community Cloud using Python 3.13 with empty Secrets. Initial deployed source commit: `78c2f14335e4bf97a33c8240a6eec96a766210cb`.
+
+Verified app: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/. Direct policy/reviewer routes are `/privacy-policy`, `/terms-of-service` and `/about`. A fresh signed-out Chrome test passed all three direct routes without accepting terms. Full dashboard regression status is recorded in `VERIFICATION.md`.
 
 The target selected by the owner is `abhinav1401/niche-intelligence`, branch `main`, entrypoint `app.py`. Only this independent deployment directory is eligible; do not add a remote to or push the private research project. Never upload its `.env`, `data`, exports or history.
 
@@ -15,7 +17,7 @@ The target selected by the owner is `abhinav1401/niche-intelligence`, branch `ma
 5. Inspect the entire history that would become public, including any destination history. The scanner covers this new local history; it cannot certify an uninspected remote.
 6. Push only this reviewed deployment repository/branch. Authentication may require the owner to sign in to GitHub. Do not paste access tokens into source, URLs or terminal commands.
 
-A hook in `.githooks/pre-push` restricts push destinations and checks release readiness. Enable it locally with `git config core.hooksPath .githooks`. Do not bypass it to publish a draft. Authentication and repository operations are deliberately not performed by the public application.
+A hook in `.githooks/pre-push` restricts push destinations and checks release readiness. On a clone, first run `chmod +x .githooks/pre-push`, then enable it with `git config core.hooksPath .githooks`. Browser publication preserves file contents but may not preserve the executable bit. Do not bypass it to publish a draft. Authentication and repository operations are deliberately not performed by the public application.
 
 ## Community Cloud settings
 

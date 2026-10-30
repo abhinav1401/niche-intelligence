@@ -1,5 +1,20 @@
 # Final preparation verification
 
+## Published Cloud release
+
+- Public app: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/
+- Privacy Policy: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/privacy-policy
+- Terms of Service: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/terms-of-service
+- Reviewer information: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/about
+- Repository: `https://github.com/abhinav1401/niche-intelligence`, branch `main`, entrypoint `app.py`.
+- Initial deployed source: `78c2f14335e4bf97a33c8240a6eec96a766210cb`. All **58 remote files** matched the reviewed local copies byte for byte; no missing or unexpected paths. All remote commit author emails were GitHub noreply addresses.
+- Runtime: Python **3.13**; the deployment Secrets fields were verified empty before deployment. The synthetic read-only app rendered on the real HTTPS hostname.
+- Signed-out Chrome direct legal/About check: **1 passed** (three routes, 15.56 seconds, including render-complete navigation and screenshots). Approved public contact renders and no draft placeholders or private home paths appear.
+- Full desktop/mobile deployed-dashboard checks are awaiting explicit approval to accept the demo Terms in isolated test sessions. Local equivalent checks already passed.
+
+The historical preparation/authentication notes below describe intermediate states; this published-release record supersedes their earlier “not deployed” status.
+
+
 31 October 2026 · isolated public-demo repository · no publication performed.
 
 ## Functional and security checks
@@ -48,3 +63,8 @@ The existing Chrome profile was subsequently verified as signed in to the owner-
 Community Cloud's **Create app** dialog requires a GitHub connection. Automatic approval review rejected **Connect to GitHub** because its persistent access scope was not yet visible. This connection is left for the owner to review and complete, with repository access limited where supported. No OAuth grant, app deployment or public HTTPS URL is claimed.
 
 The owner has been asked to enable the browser extension's local-file upload permission (or perform the prepared Git push), and to complete the Community Cloud GitHub connection. These are authentication/access steps; publication and the public policy details have already been explicitly approved.
+## Deployment test harness
+
+Community Cloud wraps the app in an iframe titled `streamlitApp`, alongside a separate hosting status iframe. Browser checks now target the application frame explicitly. Application-origin requests remain restricted to the app host; hosting-wrapper traffic is recorded separately rather than incorrectly described as application research requests. Policy screenshots wait for sidebar navigation to finish loading. These changes affect tests and documentation only; the deployed read-only application logic and synthetic fixtures are unchanged.
+
+The existing 49 isolation/unit tests passed after the deployment documentation update. The two dashboard browser cases have not been run on the Cloud host yet because the public application's agreement checkbox requires explicit at-action approval in an isolated test session. No acknowledgement was made on the owner's behalf during the signed-out policy checks.

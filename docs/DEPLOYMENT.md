@@ -4,7 +4,7 @@
 
 The owner approved publication and policy details on 31 October 2026. The reviewed 58-file demo was published to `abhinav1401/niche-intelligence`, `main`, and deployed on Community Cloud using Python 3.13 with empty Secrets. Initial deployed source commit: `78c2f14335e4bf97a33c8240a6eec96a766210cb`.
 
-Verified app: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/. Direct policy/reviewer routes are `/privacy-policy`, `/terms-of-service` and `/about`. A fresh signed-out Chrome test passed all three direct routes without accepting terms. Full dashboard regression status is recorded in `VERIFICATION.md`.
+Verified app: https://niche-intelligence-5enuxhsymfv7vrlcmhd5hr.streamlit.app/. Direct policy/reviewer routes are `/privacy-policy`, `/terms-of-service` and `/about`. A fresh signed-out Chrome test passed all three direct routes without accepting terms. The complete deployed desktop/mobile browser suite passed all three cases; details and Cloud telemetry disclosures are in `VERIFICATION.md`.
 
 The target selected by the owner is `abhinav1401/niche-intelligence`, branch `main`, entrypoint `app.py`. Only this independent deployment directory is eligible; do not add a remote to or push the private research project. Never upload its `.env`, `data`, exports or history.
 

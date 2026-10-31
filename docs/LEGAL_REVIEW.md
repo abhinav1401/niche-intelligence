@@ -8,7 +8,7 @@ The policy drafts are based on the audited implementation and official YouTube/G
 - Check any actual analytics/storage amendment acceptance before describing live permissions or enabling extended retention. A stored approval reference is not itself proof of permission. No approval is claimed here.
 - Review applicable privacy, consumer, age-related, international-processing and legal-jurisdiction obligations with appropriate advice. No jurisdiction, legal entity, encryption-at-rest guarantee, certification, monetary liability cap or governing-law choice has been invented.
 - Before a possible freemium launch, separately review accounts, OAuth, payments, refunds/cancellation, licences, support, advertising, additional processors and commercial liability. None is offered by this demo.
-- Confirm host cookies/telemetry and terms as deployed; disabling optional Streamlit usage statistics does not eliminate platform operational logging.
+- Community Cloud forces `browser.gatherUsageStats=true` despite the local opt-out setting. The deployed Privacy Policy discloses hosting usage/viewership analytics, third-party telemetry and operational logging; do not describe the Cloud deployment as telemetry-free. See the official Community Cloud status/limitations documentation.
 
 Publication is blocked while `operator_name`, `privacy_contact`, `support_contact`, `effective_date`, `legal_review_confirmed` or `publication_approved` are missing/false. Draft placeholders exist only for local preparation. Final approved values render into the legal pages; the shipped notices must never contain unresolved placeholders.
 

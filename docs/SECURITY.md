@@ -10,7 +10,7 @@ The fixed public mode has no dotenv/secrets/environment-reading configuration pa
 
 The Store accepts only one fixed public fixture path and Demo mode. SQLite is opened read-only/immutable with query-only protection, disabled extensions and an authorizer rejecting writes, pragmas, ATTACH and dangerous functions. Rows/frame convenience methods cannot be used to bypass those restrictions. No runtime migration or fixture seeding occurs. Every bundled asset is checked against a fixed-name SHA-256 manifest.
 
-The code uses Streamlit's normal escaped display for visitor text and static-only custom CSS. CORS and XSRF protection stay enabled; static file serving and optional usage statistics are disabled. User-facing error details are redacted. Native Streamlit header clearance is preserved. The app does not promise platform-wide CSP headers, deny-all hosting egress, log anonymity or encryption-at-rest settings it does not control. Host delivery and operational/security logging are described in the Privacy Policy.
+The code uses Streamlit's normal escaped display for visitor text and static-only custom CSS. CORS and XSRF protection stay enabled; static file serving is disabled. Optional usage statistics are disabled for local runs; Community Cloud overrides `browser.gatherUsageStats` to `true`, so provider telemetry remains active on that host. This is explicitly disclosed in the Privacy Policy. User-facing error details are redacted. Native Streamlit header clearance is preserved. The app does not promise platform-wide CSP headers, deny-all hosting egress, log anonymity or encryption-at-rest settings it does not control. Host delivery and operational/security logging are described in the Privacy Policy.
 
 ## Checks completed
 

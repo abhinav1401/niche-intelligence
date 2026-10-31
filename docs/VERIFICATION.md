@@ -10,7 +10,7 @@
 - Initial deployed source: `78c2f14335e4bf97a33c8240a6eec96a766210cb`. All **58 remote files** matched the reviewed local copies byte for byte; no missing or unexpected paths. All remote commit author emails were GitHub noreply addresses.
 - Runtime: Python **3.13**; the deployment Secrets fields were verified empty before deployment. The synthetic read-only app rendered on the real HTTPS hostname.
 - Signed-out Chrome direct legal/About check: **1 passed** (three routes, 15.56 seconds, including render-complete navigation and screenshots). Approved public contact renders and no draft placeholders or private home paths appear.
-- Full desktop/mobile deployed-dashboard checks are awaiting explicit approval to accept the demo Terms in isolated test sessions. Local equivalent checks already passed.
+- The owner approved isolated deployment-test acknowledgements. The complete Cloud browser suite passed: **3 passed in 62.68 seconds**, covering desktop 1440×1000, mobile 390×844, all eleven pages, five Settings tabs, header clearance, no horizontal document overflow, disabled live actions, a safe outlier filter, separate visitor sessions, and direct legal/About URLs.
 
 The historical preparation/authentication notes below describe intermediate states; this published-release record supersedes their earlier “not deployed” status.
 
@@ -67,4 +67,13 @@ The owner has been asked to enable the browser extension's local-file upload per
 
 Community Cloud wraps the app in an iframe titled `streamlitApp`, alongside a separate hosting status iframe. Browser checks now target the application frame explicitly. Application-origin requests remain restricted to the app host; hosting-wrapper traffic is recorded separately rather than incorrectly described as application research requests. Policy screenshots wait for sidebar navigation to finish loading. These changes affect tests and documentation only; the deployed read-only application logic and synthetic fixtures are unchanged.
 
-The existing 49 isolation/unit tests passed after the deployment documentation update. The two dashboard browser cases have not been run on the Cloud host yet because the public application's agreement checkbox requires explicit at-action approval in an isolated test session. No acknowledgement was made on the owner's behalf during the signed-out policy checks.
+The existing 49 isolation/unit tests passed after the deployment documentation update. The owner subsequently approved the agreement checkbox for isolated deployment testing. Both dashboard cases and the direct legal/About case passed on the Cloud host. Visitor acknowledgements remained session-only and a separate browser context still required its own acknowledgement. The direct policy checks did not require any acknowledgement.
+
+## Final hosted verification and platform telemetry
+
+- Complete live Chrome suite: **3 passed in 62.68 seconds**. Desktop/mobile screenshots and per-page/tab geometry were inspected. The desktop case visited every page before checking network traffic; the mobile case also verified the current Streamlit `data-collapsed` sidebar state.
+- The initial Cloud-specific test failures were an obsolete test assumption about `aria-expanded` and a too-broad assertion that all app-frame traffic stayed on the app hostname. No application layout or research-engine change was needed.
+- Community Cloud's official [configuration limitations](https://docs.streamlit.io/deploy/streamlit-community-cloud/status) force `browser.gatherUsageStats=true`, overriding the repository's false setting. The Privacy Policy and security documentation explicitly disclose this effective hosting behaviour.
+- Observed app-frame destinations were the app host plus `data.streamlit.io` and `webhooks.fivetran.com`. The Cloud wrapper also contacted its status, avatar and analytics services. The tests allow only those two observed telemetry hosts in addition to the application origin; unknown app-frame egress still fails. Local tests retain the strict same-origin-only check. No YouTube, Google YouTube API or paid-model endpoint was observed.
+- Hosting telemetry is not application research or a write to the synthetic SQLite database. No telemetry payloads, credentials or visitor identities were saved in the verification artifacts; only hostnames and UI geometry were recorded. Platform processing is covered by the hosting privacy disclosures.
+- The public deployment remains the reviewed synthetic demonstration. Production credentials, databases and the private 2.0 feature branch are not included.

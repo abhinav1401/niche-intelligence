@@ -63,8 +63,8 @@
       "sha256": "75a487072b2cf275200d39a0c51d391ef0f1e36a8ab1cbed211c402559f19f6f"
     },
     "content/privacy.md": {
-      "bytes": 7680,
-      "sha256": "7ff8049be4a87290bd7adcd2759b0a601386de5cddab9c26df903b0ed2783b85"
+      "bytes": 8423,
+      "sha256": "78dfd755443328de3ff0e796904ebf9d55d1ac9fe965d30fa5b13509c5ea80c1"
     },
     "content/terms.md": {
       "bytes": 3918,
@@ -75,12 +75,12 @@
       "sha256": "a08e2f84844f26e85c8f74b1ca095df16164f35f9e93db78edf4c8e40660d5e8"
     },
     "docs/DEPLOYMENT.md": {
-      "bytes": 6358,
-      "sha256": "cedbd88592bd0aa7054dd35cefd0b073f8ed1646d3b207202560be407d198761"
+      "bytes": 6432,
+      "sha256": "d83ed2ca3394acd3b99dfc9c1a911d37c1995b6b0bb3e41ea78dd59ddbd9a692"
     },
     "docs/LEGAL_REVIEW.md": {
-      "bytes": 2775,
-      "sha256": "24b80680352da7868bdf09e85c23b23d751af1e9113dabb80718111d18051f4a"
+      "bytes": 2960,
+      "sha256": "8c918f04285ff4aa550611fdfb5bbcafe085c7dfc3f9dcac9e4b565c07658000"
     },
     "docs/PUBLICATION_SUMMARY.md": {
       "bytes": 3236,
@@ -95,12 +95,12 @@
       "sha256": "44481729b958da1c355dd5a9e9c499c6e4843ff9a4b8bfc87b4e729b6a77155b"
     },
     "docs/SECURITY.md": {
-      "bytes": 4133,
-      "sha256": "48716e2dd4315f1f0583a509a4eb3bf7371b1798c34dcea8406caf5daed8fa3a"
+      "bytes": 4324,
+      "sha256": "270fceba213ca82023dd6378cc482730ab1474584ca86fe862f57606050d8f52"
     },
     "docs/VERIFICATION.md": {
-      "bytes": 9775,
-      "sha256": "35db223980e7bdb74f1990de5382b88e66501edfa2119697892f1b010710b103"
+      "bytes": 11828,
+      "sha256": "963ce291c998d01b2e7caf7043643acb7ffe0171806b3500a33ab0e2de77624d"
     },
     "nicheintel/__init__.py": {
       "bytes": 79,
@@ -211,8 +211,8 @@
       "sha256": "fa6cb77d7cbbc6c3fc64dd777918b29f5edaf2a9cf07de5284e78e965c7ee014"
     },
     "tests/browser/test_public_demo.py": {
-      "bytes": 7487,
-      "sha256": "304789b748b3018e568a4c23620b93429d85b88ca7605a149e0a6a538d2d9fa4"
+      "bytes": 7950,
+      "sha256": "8e6a1088ff1355339dcd0dc930ab30e72d3f4f87646e8c1edeeb3488608b5df0"
     },
     "tests/conftest.py": {
       "bytes": 751,

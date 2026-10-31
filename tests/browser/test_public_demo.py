@@ -9,6 +9,9 @@ import pytest
 pw = pytest.importorskip("playwright.sync_api")
 URL = os.getenv("PUBLIC_DEMO_TEST_URL")
 CLOUD = bool(URL and (urlparse(URL).hostname or "").endswith(".streamlit.app"))
+# Community Cloud forces usage statistics on and supplies these telemetry
+# destinations. Keep this exception exact; unknown app-frame egress must fail.
+CLOUD_TELEMETRY_HOSTS = {"data.streamlit.io", "webhooks.fivetran.com"}
 pytestmark = pytest.mark.skipif(not URL, reason="Start the isolated public demo and set PUBLIC_DEMO_TEST_URL")
 PAGES = [
     ("Overview", "Find the question worth animating."),
@@ -46,7 +49,8 @@ def navigate(page, label):
     if page.viewport_size["width"] < 1000 and collapse.is_visible():
         collapse.click()
     if page.viewport_size["width"] < 1000:
-        pw.expect(app.locator('[data-testid="stSidebar"]')).to_have_attribute("aria-expanded", "false")
+        pw.expect(app.locator('[data-testid="stSidebar"]')).to_have_attribute("data-collapsed", "true")
+        pw.expect(app.get_by_role("button", name="Expand sidebar", exact=True)).to_be_visible()
     app.locator('[data-testid="stMain"]').evaluate("e=>e.scrollTop=0")
 
 
@@ -112,7 +116,10 @@ def test_pages_tabs_filters_and_mobile_navigation(tmp_path, width, height):
         page.screenshot(path=str(tmp_path / f"public-demo-{width}.png"))
         (tmp_path / "measurements.json").write_text(json.dumps(results, indent=2))
         (tmp_path / "request-hosts.json").write_text(json.dumps({"all_hosts": sorted(str(h) for h in hosts), "application_hosts": sorted(str(h) for h in application_hosts)}, indent=2))
-        assert application_hosts <= {urlparse(URL).hostname, None}, application_hosts
+        allowed_application_hosts = {urlparse(URL).hostname, None}
+        if CLOUD:
+            allowed_application_hosts |= CLOUD_TELEMETRY_HOSTS
+        assert application_hosts <= allowed_application_hosts, application_hosts
         if not CLOUD:
             assert hosts <= {urlparse(URL).hostname, None}, hosts
         # Session acknowledgement must not leak to another visitor.
